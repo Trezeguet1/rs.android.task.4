@@ -1,0 +1,2 @@
+rootProject.name='storage4'
+include ':app'

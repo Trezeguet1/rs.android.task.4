@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:title="Sort by"
+        android:summary="Sort your tasks"/>
+    <SwitchPreference
+        android:title="By name asc"
+        android:defaultValue="false"
+        app:key="name"/>
+    <SwitchPreference
+        android:title="By owner asc"
+        app:key="owner"
+        android:defaultValue="false"/>
+</PreferenceScreen>
